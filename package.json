@@ -1,0 +1,40 @@
+{
+  "name": "ceshi",
+  "version": "1.0.0",
+  "description": "xushaokuntest",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --colors --content-base ./build",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xushaokun/-.git"
+  },
+  "keywords": [
+    "1234qwer"
+  ],
+  "author": "xushaokun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xushaokun/-/issues"
+  },
+  "homepage": "https://github.com/xushaokun/-#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.39.0",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
